@@ -1,6 +1,8 @@
 import Link from "next/link"
 export default function Navbar(){
     return(
+        <>
+            
             <nav>
                 <div className='logo'>
                     <Link href='/'>Logo</Link>
@@ -15,5 +17,9 @@ export default function Navbar(){
                     <Link href='/login'>Login</Link>
                 </div>
             </nav>
+            <div className="box">text</div>
+        </>
+            
+            
     )
 }

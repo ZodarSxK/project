@@ -9,28 +9,28 @@ export default function Login(){
             </Head>
             <div className={styles.contrainer}>
                 <form className={styles.form}>
-                
-                    <span className={styles.title}>สมาชิก</span>
+                    
+                    <div className={styles.title}>สมาชิก</div>
+                    
                    
                     <div className={styles.email}>
                         <input type="text" placeholder="Email"></input>
                     </div>
                    
-                    <div className={styles.pass}>
+                    <div className={styles.email}>
                         <input type="text" placeholder="Password"></input>
                     </div>
                     <div className={styles.forgot}>
-                        <span>
-                            <input type="checkbox"></input>
-                            ดูรหัสผ่าน
-                        </span>
-                        <Link href="">ลืมรหัสผ่าน?</Link>
+                        
+                        <label><input type="checkbox"></input>ดูรหัสผ่าน</label>
+                        
+                        <Link  href="">ลืมรหัสผ่าน?</Link>
                         
                     </div>
                    
                     <div className={styles.btn}>
-                        <button className={styles.btn1}>สมัครสมาชิก</button>
-                        <button className={styles.btn2}>เข้าสู่ระบบ</button>
+                        <Link href="/register"><button className={styles.btn1}>สมัครสมาชิก</button></Link>
+                        <Link href="/"><button className={styles.btn2} type="submit">เข้าสู่ระบบ</button></Link>
                     </div>
                     
                 
