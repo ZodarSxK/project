@@ -1,0 +1,30 @@
+body{
+  background: rgb(166, 245, 255);
+  color: black;
+}
+nav{
+  margin: 10px auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #9e9e9e;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  margin-left: 12px;
+  font-size: 18px;
+  padding: 10px;
+}
+/* nav .logo{
+  padding-left: 1px;
+} */
+footer{
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  color: #777;
+  border-top: 1px solid #eaeaea;
+}
