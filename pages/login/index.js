@@ -24,7 +24,7 @@ export default function Login(){
                             <input type="checkbox"></input>
                             ดูรหัสผ่าน
                         </span>
-                        <span><Link href="">ลืมรหัสผ่าน?</Link></span>
+                        <Link href="">ลืมรหัสผ่าน?</Link>
                         
                     </div>
                    
